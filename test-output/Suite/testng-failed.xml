@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="LendNation.QC_LendNation.QC_Store">
+        <methods>
+          <include name="Achdeposit"/>
+          <include name="rebateStepup"/>
+          <include name="QC_EPP_Redeposit"/>
+          <include name="QC_EPPDeposit"/>
+          <include name="QC_EPP_Return"/>
+          <include name="RefinanceStepup"/>
+          <include name="maxloanCount"/>
+          <include name="rescindloan"/>
+          <include name="endReport"/>
+          <include name="GracedaysMiddayDeposit"/>
+          <include name="QC_EPP_nsfPayment"/>
+          <include name="GracedaysDepositMenu"/>
+          <include name="middayDeposit"/>
+          <include name="QC_EPP_Prepayment"/>
+          <include name="agerescindtest"/>
+          <include name="RefinanceStepSame"/>
+          <include name="setup"/>
+          <include name="getResult"/>
+          <include name="rebateStepupVoid"/>
+          <include name="QC_EPP_clear"/>
+          <include name="RefinanceStepupVoid"/>
+          <include name="QC_EPP_refund"/>
+          <include name="borrowregNewloan"/>
+          <include name="RefinanceStepSameVoid"/>
+          <include name="futureMidayDeposit"/>
+          <include name="inactiveNewloan"/>
+        </methods>
+      </class> <!-- LendNation.QC_LendNation.QC_Store -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
